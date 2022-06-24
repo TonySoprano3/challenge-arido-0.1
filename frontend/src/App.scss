@@ -1,0 +1,30 @@
+// Basic Utilities
+* {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    user-select: none;
+    scroll-behavior: smooth;
+    scroll-margin-top: -1.5rem;
+}
+
+button {cursor: pointer}
+a {cursor: pointer; color: var(--primary-color);}
+// Heading Variables
+h1 {font-size: var(--h1-desktop-size); font-weight: var(--light-font-weight)}
+h2 {font-size: var(--h2-desktop-size); font-weight: var(--light-font-weight)}
+h3 {font-size: var(--h3-desktop-size); font-weight: var(--light-font-weight)}
+// Text, buttons, etc. (Size)
+a {font-size: var(--links-size);}
+p {font-size: var(--desktop-text); font-weight: var(--extra-light-font-weight)}
+input {font-size: var(--desktop-text); font-weight: var(--extra-light-font-weight);}
+// Media Queries for mobile
+@media only screen and (max-width: 450px) {
+    h1 {font-size: var(--h1-mobile-size)}
+    h2 {font-size: var(--h2-mobile-size)}
+    h3 {font-size: var(--h3-mobile-size)}
+    p  {font-size: var(--mobile-text)}
+}
+

@@ -1,0 +1,23 @@
+.app__login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 88vh;
+    justify-content: center;
+    
+}
+.btn__login {
+    padding: 0.5rem 1rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    width: fit-content;
+    margin: 0.5rem auto;
+    font-weight: 500;
+
+    transition: var(--transition);
+
+&:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+}

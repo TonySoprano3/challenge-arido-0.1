@@ -1,0 +1,29 @@
+.app__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+     ul {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        font-size: var(--link-size);
+    
+        li {
+            transition: var(--transition);
+            &:hover {
+               
+                color: var(--text-hover-color);
+            }
+        }
+    }
+    @media screen and (max-width:450px) {
+        ul {
+            width: 100%;
+        }
+    }
+}
+
