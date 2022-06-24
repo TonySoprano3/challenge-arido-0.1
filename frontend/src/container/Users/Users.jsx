@@ -54,7 +54,7 @@ const Users = () => {
                 <input type="text" {...register('age', {
                     validate: ageValidator
                 })} />
-                {errors.edad && <p>Select a Age between 18-65</p>}
+                {errors.age && <p>Select a Age between 18-65</p>}
             </div>
             <div  className='form-section'>
                 <label>Country</label>

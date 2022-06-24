@@ -9,17 +9,22 @@
     scroll-behavior: smooth;
     scroll-margin-top: -1.5rem;
 }
-
+body {
+    background-color: var(--primary-color);
+}
 button {cursor: pointer}
 a {cursor: pointer; color: var(--primary-color);}
 // Heading Variables
-h1 {font-size: var(--h1-desktop-size); font-weight: var(--light-font-weight)}
-h2 {font-size: var(--h2-desktop-size); font-weight: var(--light-font-weight)}
-h3 {font-size: var(--h3-desktop-size); font-weight: var(--light-font-weight)}
+h1 {font-size: var(--h1-desktop-size); font-weight: var(--light-font-weight); color: var(--secondary-color)}
+h2 {font-size: var(--h2-desktop-size); font-weight: var(--light-font-weight); color: var(--secondary-color)}
+h3 {font-size: var(--h3-desktop-size); font-weight: var(--light-font-weight); color: var(--secondary-color)}
 // Text, buttons, etc. (Size)
 a {font-size: var(--links-size);}
-p {font-size: var(--desktop-text); font-weight: var(--extra-light-font-weight)}
-input {font-size: var(--desktop-text); font-weight: var(--extra-light-font-weight);}
+li {color: var(--primary-color);}
+p {font-size: var(--desktop-text); font-weight: var(--extra-light-font-weight); color: var(--secondary-color)}
+input {font-size: var(--desktop-text); font-weight: var(--extra-light-font-weight)}
+textarea {color: var(--secondary-color);}
+label { color: var(--secondary-color)}
 // Media Queries for mobile
 @media only screen and (max-width: 450px) {
     h1 {font-size: var(--h1-mobile-size)}

@@ -7,7 +7,7 @@
     gap: 0.5rem;
     border-radius: 1.5%;
     border: .1px solid var(--primary-color);
-
+    
 
 
     transition: var(--transition);
@@ -25,9 +25,15 @@
         border-radius: 50%;
     }
     svg {
+        color: var(--secondary-color);
         position: relative;
         left: -10px;
         top: 1.5px;
     }
-   
+    p {
+        color: var(--secondary-color);;
+    }
+    @media screen and (max-width: 450px) {
+        padding: 0.8rem;
+    }
 }

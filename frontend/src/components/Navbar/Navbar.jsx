@@ -4,7 +4,6 @@ import './Navbar.scss';
 
 
 
-
 const Navbar = () => {
   return (
  
@@ -13,6 +12,7 @@ const Navbar = () => {
         <ul>
         <a href='/'><li>Home</li></a>
         <a href='#users'><li>Users</li></a>
+   
         </ul>
 
     </nav>
